@@ -1,11 +1,12 @@
-rockchip-prebuilt (6.12.1.1-1) UNRELEASED; urgency=medium
+rockchip-prebuilt (6.12.1.1-1) noble; urgency=medium
 
   [ ZHANG Yuntian ]
   * fix: rm -rf for directory
   * fix: bashism
   * chore: update to linux-6.12-stan-rkr1.1
+  * fix: restore overlay packages
 
- -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Fri, 13 Nov 2026 06:55:06 +0000
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Fri, 13 Nov 2026 07:27:10 +0000
 
 rockchip-prebuilt (0.5.0-linux-6.12-stan-rkr1-4) noble; urgency=medium
 
