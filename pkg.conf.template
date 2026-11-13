@@ -1,0 +1,34 @@
+{
+  "*": {
+    "Releases": [
+      "rk3576-trixie",
+      "rk3576-trixie-test"
+    ]
+  },
+  "camera_engine_rkaiq_rk3562_arm64.deb": {
+    "Releases": [
+    ]
+  },
+  "camera_engine_rkaiq_rk3568_arm64.deb": {
+    "Releases": [
+    ]
+  },
+  "camera_engine_rkaiq_rk3572_arm64.deb": {
+    "Releases": [
+    ]
+  },
+  "camera_engine_rkaiq_rk3576_arm64.deb": {
+    "Releases": [
+      "rk3576-trixie",
+      "rk3576-trixie-test"
+    ]
+  },
+  "camera_engine_rkaiq_rk3588_arm64.deb": {
+    "Releases": [
+    ]
+  },
+  "camera_engine_rkisp_v2.3.0_arm64.deb": {
+    "Releases": [
+    ]
+  }
+}
