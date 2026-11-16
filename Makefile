@@ -5,7 +5,7 @@
 -include .github/local/Makefile.local
 -include Makefile.extra
 
-PROJECT ?= rockchip-prebuilt
+PROJECT ?= rockchip-prebuilt-6.12
 CUSTOM_DEBUILD_ENV ?= DEB_BUILD_OPTIONS='parallel=1'
 CUSTOM_DEBUILD_ARG ?=
 
