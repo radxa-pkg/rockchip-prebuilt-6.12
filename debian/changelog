@@ -1,3 +1,11 @@
+rockchip-prebuilt (6.12.1.1-2) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: delete duplicated packages
+  * fix: cp packages to debuild output path
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Mon, 16 Nov 2026 10:49:22 +0000
+
 rockchip-prebuilt (6.12.1.1-1) noble; urgency=medium
 
   [ ZHANG Yuntian ]
