@@ -1,9 +1,10 @@
-rockchip-prebuilt (6.12.1.1-2) UNRELEASED; urgency=medium
+rockchip-prebuilt (6.12.1.1-2) noble; urgency=medium
 
   [ ZHANG Yuntian ]
   * fix: clean submodules
+  * fix: add git-lfs build-deps
 
- -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Thu, 19 Nov 2026 06:51:55 +0000
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Thu, 19 Nov 2026 07:41:56 +0000
 
 rockchip-prebuilt (6.12.1.1-2) noble; urgency=medium
 
