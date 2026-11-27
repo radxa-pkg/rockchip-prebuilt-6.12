@@ -1,0 +1,3 @@
+# Allow the active local session to initialize Mali graphics.
+ENV{DEVNAME}=="/dev/mali0", TAG+="uaccess"
+ENV{DEVNAME}=="/dev/dma_heap/system-uncached", TAG+="uaccess"
