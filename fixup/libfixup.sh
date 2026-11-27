@@ -28,15 +28,20 @@ fixup_loop() {
         pushd "$dir_path"
 
             ar x "$file_name"
-            unxz -T 0 control.tar.xz data.tar.xz # because tar --append does not work with compression
+            local ext=xz compressor=(xz)
+            if [[ -f control.tar.zst ]]; then
+                ext=zst
+                compressor=(zstd --rm)
+            fi
+            "${compressor[@]}" -d -T0 "control.tar.$ext" "data.tar.$ext" # because tar --append does not work with compression
             extract control.tar control
 
             fixup_callback "$file_name"
 
             replace control.tar control
-            xz -T 0 control.tar data.tar
-            ar r "$file_name" debian-binary control.tar.xz data.tar.xz
-            rm debian-binary control.tar.xz data.tar.xz
+            "${compressor[@]}" -T0 control.tar data.tar
+            ar r "$file_name" debian-binary "control.tar.$ext" "data.tar.$ext"
+            rm debian-binary "control.tar.$ext" "data.tar.$ext"
 
         popd
     done
