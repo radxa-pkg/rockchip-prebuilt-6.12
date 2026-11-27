@@ -1,2 +1,3 @@
 override_dh_installudev:
 	dh_installudev -prockchip-udev --name=rockchip-drm --priority=60
+	dh_installudev -prockchip-udev --name=rockchip-mali-uaccess --priority=70

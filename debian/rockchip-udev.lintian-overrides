@@ -1,2 +1,3 @@
 # Ignore troff warning
 rockchip-udev: groff-message
+rockchip-udev: appstream-metadata-missing-modalias-provide
