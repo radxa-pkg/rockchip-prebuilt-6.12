@@ -8,6 +8,8 @@ Build-Depends: debhelper (>=12~),
                git-lfs,
                lintian,
                pandoc,
+               patchelf,
+               zstd,
 
 Package: rockchip-udev
 Architecture: all

@@ -36,7 +36,7 @@ build-deb: $(SRC-DEB)
 	rm -f "$^/ubuntu-build-service/bullseye-desktop-armhf/bullseye-desktop-armhf"
 	find -L "$^" -name "camera_engine_rkaiq_*_arm64.deb" -exec fixup/fix_rkaiq {} +
 	find -L "$^" -name "rktoolkit_*_arm64.deb" -exec fixup/fix_rktoolkit {} +
-	find -L "$^" -name "chromium-x11_*_arm64.deb" -exec fixup/fix_chromium {} +
+	find -L "$^" -name "chromium-ozone-wayland_*_arm64.deb" -exec fixup/fix_chromium {} +
 # libdrm contains duplicated packages as libdrm-debs
 	rm -rf "$^/packages/arm64/libdrm"
 	find src/packages/arm64 -name "*.deb" -exec cp {} ../ \;
